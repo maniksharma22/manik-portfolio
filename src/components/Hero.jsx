@@ -53,11 +53,11 @@ export default function Hero() {
         </a>
       </motion.div>
 
-      {/* Resume Button */}
+      {/* Resume Button - Black & Golden */}
       <motion.a
         href="/Manik_Sharma_Resume.pdf"
         download
-        className="bg-blue-600 text-white px-6 py-2 rounded-full flex items-center gap-2 font-medium shadow-md hover:bg-blue-700 hover:shadow-blue-500/40 transition-all duration-300 z-10"
+        className="bg-yellow-400 text-black px-6 py-2 rounded-full flex items-center gap-2 font-medium shadow-md hover:bg-yellow-300 hover:shadow-yellow-500/40 transition-all duration-300 z-10"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         initial={{ opacity: 0 }}
