@@ -23,7 +23,7 @@ import {
 } from "react-icons/si";
 import { BsCodeSlash } from "react-icons/bs";
 
-constconst skills = [
+const skills = [
   // Programming Languages
   { name: "Java", icon: <FaJava className="text-red-600" /> },
   { name: "JavaScript", icon: <FaJsSquare className="text-yellow-300" /> },
