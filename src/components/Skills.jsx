@@ -8,19 +8,19 @@ import {
   FaChartBar,
   FaJava,
   FaGithub,
-  FaMaven,
   FaGitAlt,
 } from "react-icons/fa";
 import {
-  SiSpringboot,
+  SiApachemaven,
   SiSpring,
-  SiNumpy,
+  SiSpringboot,
+  SiMysql,
   SiPostman,
   SiIntellijidea,
   SiVisualstudiocode,
   SiVercel,
-  SiCanva,
 } from "react-icons/si";
+
 import { BsCodeSlash } from "react-icons/bs";
 
 const skills = [
@@ -32,7 +32,7 @@ const skills = [
   // Backend & Build Tools
   { name: "Spring Boot", icon: <SiSpringboot className="text-green-500" /> },
   { name: "Spring Framework", icon: <SiSpring className="text-green-400" /> },
-  { name: "Maven", icon: <FaMaven className="text-red-500" /> },
+  { name: "Maven", icon: <SiApachemaven className="text-red-500" /> },
 
   // Web Development
   { name: "HTML", icon: <FaHtml5 className="text-orange-500" /> },
