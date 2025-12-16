@@ -30,9 +30,9 @@ export default function About() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.3 }}
       >
-        I'm a recent 2025 Computer Engineering graduate with an 8.01 CGPA and a deep passion for building impactful solutions through technology. I enjoy creating clean, responsive, and functional web applications using HTML, CSS, JavaScript, React.js, PHP, and MySQL.
-        <br /><br />
-        Through internships and multiple hands-on projects, I’ve developed strong full-stack development skills and love turning ideas into real-world applications.
+       Computer Engineering graduate with an 8.01 CGPA and experience in responsive web development using HTML, CSS, JavaScript, and 
+       React.js. Actively strengthening skills in Spring Boot and RESTful services, with working knowledge of Java, MySQL, SQL, Pandas, and 
+       NumPy. Motivated by continuous learning and building reliable, scalable software solutions.
       </motion.p>
 
       <motion.button
