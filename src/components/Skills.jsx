@@ -15,7 +15,6 @@ import {
   SiSpringboot,
   SiMysql,
   SiPostman,
-  SiIntellijidea,
 } from "react-icons/si";
 
 import { BsCodeSlash } from "react-icons/bs";
@@ -46,7 +45,16 @@ const skills = [
   { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
   { name: "GitHub", icon: <FaGithub className="text-white" /> },
   { name: "Postman", icon: <SiPostman className="text-orange-500" /> },
-  { name: "IntelliJ IDEA", icon: <SiIntellijidea className="text-purple-400" /> },
+  {
+  name: "IntelliJ IDEA",
+  icon: (
+    <img
+      src="/IntelliJ_IDEA_Icon.svg.png"
+      alt="IntelliJ IDEA"
+      className="w-10 h-10 object-contain"
+    />
+  ),
+},
 ];
 
 export default function Skills() {
