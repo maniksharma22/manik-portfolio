@@ -12,12 +12,11 @@ import {
 } from "react-icons/fa";
 import {
   SiApachemaven,
-  SiSpring,
   SiSpringboot,
   SiMysql,
   SiPostman,
-  SiIntellijidea,
-  SiVisualstudiocode,
+  SiIntellijIdea,
+  SiVisualStudioCode,
   SiVercel,
 } from "react-icons/si";
 
@@ -31,7 +30,6 @@ const skills = [
 
   // Backend & Build Tools
   { name: "Spring Boot", icon: <SiSpringboot className="text-green-500" /> },
-  { name: "Spring Framework", icon: <SiSpring className="text-green-400" /> },
   { name: "Maven", icon: <SiApachemaven className="text-red-500" /> },
 
   // Web Development
@@ -44,15 +42,14 @@ const skills = [
 
   // Data & Analytics
   { name: "Pandas", icon: <FaChartBar className="text-green-400" /> },
-  { name: "NumPy", icon: <SiNumpy className="text-blue-400" /> },
   { name: "Power BI", icon: <FaChartBar className="text-yellow-500" /> },
 
   // Developer & Deployment Tools
   { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
   { name: "GitHub", icon: <FaGithub className="text-white" /> },
   { name: "Postman", icon: <SiPostman className="text-orange-500" /> },
-  { name: "IntelliJ IDEA", icon: <SiIntellijidea className="text-purple-400" /> },
-  { name: "VS Code", icon: <SiVisualstudiocode className="text-blue-400" /> },
+  { name: "IntelliJ IDEA", icon: <SiIntellijIdea className="text-purple-400" /> },
+  { name: "VS Code", icon: <SiVisualStudioCode className="text-blue-400" /> },
   { name: "Vercel", icon: <SiVercel className="text-white" /> },
 ];
 
