@@ -38,8 +38,28 @@ const skills = [
   { name: "MySQL", icon: <FaDatabase className="text-blue-300" /> },
 
   // Data & Analytics
-  { name: "Pandas", icon: <FaChartBar className="text-green-400" /> },
-  { name: "Power BI", icon: <FaChartBar className="text-yellow-500" /> },
+ {
+  name: "Pandas",
+  icon: (
+    <img
+      src="/pandas.png"
+      alt="Pandas"
+      className="w-10 h-10 object-contain"
+    />
+  ),
+},
+
+  {
+  name: "Power BI",
+  icon: (
+    <img
+      src="/power_BI.jpg"
+      alt="Power BI"
+      className="w-10 h-10 object-contain"
+    />
+  ),
+},
+
 
   // Developer & Deployment Tools
   { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
@@ -55,6 +75,17 @@ const skills = [
     />
   ),
 },
+  {
+  name: "Vercel",
+  icon: (
+    <img
+      src="/vercel.png"
+      alt="Vercel"
+      className="w-10 h-10 object-contain"
+    />
+  ),
+},
+
 ];
 
 export default function Skills() {
