@@ -16,7 +16,7 @@ import {
   SiMysql,
   SiPostman,
   SiIntellijidea,
-  SiVisualstudio
+  SiVisualstudio,
   SiVercel,
 } from "react-icons/si";
 
