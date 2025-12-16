@@ -7,7 +7,13 @@ import {
 
 // Custom LeetCode Icon
 const LeetCodeIcon = ({ size = 30 }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" height={size} width={size} viewBox="0 0 32 32" fill="currentColor">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={size}
+    width={size}
+    viewBox="0 0 32 32"
+    fill="currentColor"
+  >
     <path d="M20.4 7.2 18.2 9.4a7.2 7.2 0 1 1 0 10.2l-7-7a.8.8 0 0 1 0-1.2l7-7L16 2l-7 7a3.2 3.2 0 0 0 0 4.4l7 7a11.2 11.2 0 0 0 0-15.8z" />
   </svg>
 );
@@ -15,9 +21,10 @@ const LeetCodeIcon = ({ size = 30 }) => (
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center text-center bg-black text-white px-4 overflow-hidden">
+      
       {/* Name */}
       <motion.h1
-        className="text-5xl font-bold mb-4 z-10"
+        className="text-5xl md:text-6xl font-bold mb-4 z-10"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -27,12 +34,12 @@ export default function Hero() {
 
       {/* Role */}
       <motion.p
-        className="text-xl text-gray-400 mb-6 z-10"
+        className="text-xl md:text-2xl text-gray-400 mb-6 z-10"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        Web Developer | Full Stack Engineer
+        Software Developer (Fresher) | Java | Web Development | Spring Boot
       </motion.p>
 
       {/* Social Icons */}
@@ -42,18 +49,35 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.4 }}
       >
-        <a href="https://github.com/maniksharma22" target="_blank" className="hover:text-blue-400 transition">
+        <a
+          href="https://github.com/maniksharma22"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:text-gray-400 transition"
+        >
           <FaGithub size={30} />
         </a>
-        <a href="https://www.linkedin.com/in/manik-sharma-10186922b" target="_blank" className="hover:text-blue-400 transition">
+
+        <a
+          href="https://www.linkedin.com/in/manik-sharma-10186922b"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:text-blue-400 transition"
+        >
           <FaLinkedin size={30} />
         </a>
-        <a href="https://leetcode.com/u/maniksharma22/" target="_blank" className="hover:text-yellow-400 transition">
+
+        <a
+          href="https://leetcode.com/u/maniksharma22/"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:text-yellow-400 transition"
+        >
           <LeetCodeIcon />
         </a>
       </motion.div>
 
-      {/* Resume Button - Black & Golden */}
+      {/* Resume Button */}
       <motion.a
         href="/Manik_Sharma_Resume.pdf"
         download
