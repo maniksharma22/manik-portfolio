@@ -16,7 +16,7 @@ import {
   SiMysql,
   SiPostman,
   SiIntellijidea,
-  SiVisualstudiocode,
+  Sivisualstudiocode,
   SiVercel,
 } from "react-icons/si";
 
@@ -49,7 +49,7 @@ const skills = [
   { name: "GitHub", icon: <FaGithub className="text-white" /> },
   { name: "Postman", icon: <SiPostman className="text-orange-500" /> },
   { name: "IntelliJ IDEA", icon: <SiIntellijidea className="text-purple-400" /> },
-  { name: "VS Code", icon: <SiVisualstudiocode className="text-blue-400" /> },
+  { name: "VS Code", icon: <Sivisualstudiocode className="text-blue-400" /> },
   { name: "Vercel", icon: <SiVercel className="text-white" /> },
 ];
 
